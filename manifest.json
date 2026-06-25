@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "书签置顶收藏",
+  "version": "1.0",
+  "description": "点击图标将当前页面收藏到书签栏最开头",
+  "permissions": ["bookmarks", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "收藏到书签栏开头",
+    "default_icon": {
+      "16": "icons/icon16.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png"
+  }
+}
